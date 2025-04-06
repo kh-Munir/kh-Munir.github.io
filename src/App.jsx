@@ -8,8 +8,10 @@ import Projects from "./components/navbar/Projects/Projects"
 function App() {
   
   return (
-    <div className="bg-[#EFF3EA] h-auto  w-full overflow-hidden">
+    <div className="bg-[#EFF3EA] h-auto w-full">
+      <div className="sticky top-0">
       <Navbar/>
+      </div>
       <Home/>
       <About/>
       <Experience/>

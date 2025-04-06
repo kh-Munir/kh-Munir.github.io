@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RiCloseLine, RiMenu2Line } from '@remixicon/react';
 import clsx from 'clsx';
+import logo from "../../assets/Image/web-development.png"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,9 +11,8 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 bg-[#c3caba] flex justify-between items-center px-6 py-4 md:px-20 text-[#4B164C] shadow-md z-50">
-
       {/* Logo */}
-      <span className="text-xl font-bold tracking-wide">Portfolio</span>
+      <img src={logo} alt='logo' width={20} height={20} />
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-8 font-semibold text-md">
