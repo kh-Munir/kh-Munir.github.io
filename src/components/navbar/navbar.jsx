@@ -9,7 +9,7 @@ const Navbar = () => {
   const closeDrawer = () => setMenuOpen(false);
 
   return (
-    <nav className="sticky top-0 flex justify-between items-center px-6 py-4 md:px-20 text-[#4B164C] shadow-md z-50">
+    <nav className="sticky top-0 bg-[#c3caba] flex justify-between items-center px-6 py-4 md:px-20 text-[#4B164C] shadow-md z-50">
 
       {/* Logo */}
       <span className="text-xl font-bold tracking-wide">Portfolio</span>

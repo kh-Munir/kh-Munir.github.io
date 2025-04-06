@@ -38,7 +38,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://github.com/"
+              href="https://github.com/kh-Munir"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"

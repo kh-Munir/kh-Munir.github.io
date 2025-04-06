@@ -56,7 +56,7 @@ const Experience = () => {
                 </a>
               </h2>
               <p className="text-sm mt-1 font-light">
-                September 2023 - September 2024
+                July 2023 - July 2024
               </p>
             </div>
           </div>
