@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import BayatImg from "../../../assets/Image/bayt-architects.webp";
+import epctImg from "../../../assets/Image/epctmockup.png";
 
 const Projects = () => {
   return (
@@ -20,8 +21,10 @@ const Projects = () => {
         />
 
         <ProjectCard
-          title="YouTube Clone"
-          main="A YouTube clone built using Next.js and styled with modern UI libraries."
+          title="EPCT"
+          imgSrc={epctImg}
+          link="https://www.epctbd.com/"
+          main="A project centered on developing an online presence for one of the biggest builder firm in sylhet."
         />
       </div>
     </div>
